@@ -1,0 +1,10 @@
+45 error Error: Command failed with exit code 1: git commit -F /private/var/folders/p8/phnsv0l575xd84cymshp5pwcs2t2q7/T/788c53cb-f834-4545-97b2-3837b5984fe8/lerna-commit.txt
+45 error On branch main
+45 error Your branch is ahead of 'origin/main' by 2 commits.
+45 error   (use "git push" to publish your local commits)
+45 error
+45 error nothing to commit, working tree clean
+45 error     at makeError (/Users/501740/.nvm/versions/node/v19.5.0/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+45 error     at handlePromise (/Users/501740/.nvm/versions/node/v19.5.0/lib/node_modules/lerna/node_modules/execa/index.js:114:26)
+45 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+45 error     at async Promise.all (index 0)
