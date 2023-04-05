@@ -18,5 +18,8 @@
     "rollup-plugin-svelte": "^7.1.4",
     "svelte": "^3.55.1"
   },
-  "gitHead": "1ca2b7365eb79094ebf51e3e4b0a0e14dffcb35c"
+  "gitHead": "46fc77abf376fd8c4166ba901d83adca0f981d15",
+  "publishConfig": {
+    "access": "public"
+  }
 }
