@@ -17,5 +17,6 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^7.1.4",
     "svelte": "^3.55.1"
-  }
+  },
+  "gitHead": "a89152c67353e46a5e381ceb6e53997840084c02"
 }
