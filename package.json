@@ -8,6 +8,7 @@
     "lerna": "^6.6.1"
   },
   "publishConfig": {
-    "registry":"https://registry.npmjs.org/@lotiviot"
+    "registry":"https://registry.npmjs.org/@lotiviot",
+    "access":"public"
   }
 }
