@@ -1,2 +1,2 @@
 # PFJ-Lerna-MonoRepo
-The purpose of this project is to develop a final more official monorepo that will be representative of what projects will be maintained in said monorepo.
+The purpose of this repository is to fully realize what the outcomes of the 9437 task where in pnpm workspaces were employed to demonstrate the feasibility of a monolithic repository, which would serve as the singular vessel for all of Pilot Flying J's future web projects, as a hypothetical scenario. Something that was missed in the outcome of the original POC is the implementation and explanation that would define the 
