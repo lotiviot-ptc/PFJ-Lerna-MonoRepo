@@ -8,9 +8,9 @@ importers:
     devDependencies:
       lerna: 6.6.1
 
-  apps/project-2:
+  apps/pfj-storybook:
     specifiers:
-      '@lotivio-org-test/pfj-svelte-package': 1.0.0
+      '@lotivio-org-test/pfj-svelte-package': ^1.0.1
       '@lotivio-org-test/pfj-svelte-package-0.0.3': npm:@lotivio-org-test/pfj-svelte-package@0.0.3
       '@playwright/test': ^1.28.1
       '@storybook/addon-essentials': ^7.0.2
@@ -73,7 +73,7 @@ importers:
 
   apps/test-project:
     specifiers:
-      '@lotivio-org-test/pfj-svelte-package': 1.0.0
+      '@lotivio-org-test/pfj-svelte-package': ^1.0.1
       '@sveltejs/vite-plugin-svelte': ^2.0.3
       svelte: ^3.55.1
       vite: ^4.2.0
@@ -2903,7 +2903,7 @@ packages:
       cross-spawn: 7.0.3
       detect-indent: 6.1.0
       envinfo: 7.8.1
-      execa: 5.0.0
+      execa: 5.1.1
       express: 4.18.2
       find-up: 5.0.0
       fs-extra: 11.1.1

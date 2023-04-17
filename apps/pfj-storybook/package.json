@@ -1,6 +1,6 @@
 {
   "name": "pfj-storybook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
@@ -58,7 +58,7 @@
     "vitest": "^0.25.3"
   },
   "dependencies": {
-    "@lotivio-org-test/pfj-svelte-package": "1.0.0",
+    "@lotivio-org-test/pfj-svelte-package": "^1.0.1",
     "@lotivio-org-test/pfj-svelte-package-0.0.3": "npm:@lotivio-org-test/pfj-svelte-package@0.0.3"
   },
   "svelte": "./dist/index.js",
