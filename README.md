@@ -1,2 +1,82 @@
-# PFJ-Lerna-MonoRepo
-The purpose of this repository is to fully realize what the outcomes of the 9437 task where in pnpm workspaces were employed to demonstrate the feasibility of a monolithic repository, which would serve as the singular vessel for all of Pilot Flying J's future web projects, as a hypothetical scenario. Something that was missed in the outcome of the original POC is the implementation and explanation that would define the 
+
+# PFJ Monolithic Repository and Pattern Library
+
+This is the proof of concept for [WEBSITE-9880](https://pilotflyingj.atlassian.net/browse/WEBSITE-9880). This project builds upon the previous [repository](https://github.com/lotiviot-ptc/svelte-monorepo-poc), by implementing [Lerna](https://lerna.js.org/), in order to further flesh out the tool
+
+
+## Tech Stack
+
+Svelte, SvelteKit, Rollup, NPM Registry, PNPM, Lerna
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/lotiviot-ptc/PFJ-Lerna-MonoRepo
+```
+
+Go to the project directory
+
+```bash
+  cd PFJ-Lerna-MonoRepo
+```
+
+Install dependencies
+
+```bash
+  pnpm i -g lerna
+```
+
+```bash
+  pnpm i
+```
+
+Build the Repository
+
+```bash
+  lerna run build
+```
+
+Run a Singular Project
+
+```bash
+  lerna run dev --scope=<Project Name>
+```
+
+Run the Storybook Implementation
+
+```bash
+  lerna run storybook --scope=pfj-storybook
+```
+
+How to Publish to Package updates to NPM (update only)
+
+```bash
+  lerna publish
+```
+
+How to Publish to Package updates to NPM (first publish)
+
+```bash
+  cd ./package-to-publish/
+  npm publish --access public
+```
+## Roadmap
+
+- Further Documentation Regarding NPM Publishing
+- Discusssions on Security
+- Fleshing out of Storybook Implementation
+
+
+## Documentation
+
+[Documentation](https://pilotflyingj.atlassian.net/wiki/spaces/~62dbcce977308a9694e2b882/pages/3037167781/PFJ+Lerna+MonoRepo+and+Pattern+Library+Proof+of+Concept)
+
+
+## Acknowledgements
+
+ - [readme.so/editor](https://readme.so/editor)
+
+
