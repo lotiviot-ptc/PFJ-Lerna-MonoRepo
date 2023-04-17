@@ -1,5 +1,5 @@
 {
-  "name": "project-2",
+  "name": "pfj-storybook",
   "version": "0.0.1",
   "scripts": {
     "dev": "vite dev",
